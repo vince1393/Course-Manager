@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="230.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CourseInventory.AddFormController">
+   <children>
+      <TextField fx:id="textId" layoutX="123.0" layoutY="53.0" AnchorPane.leftAnchor="123.0" AnchorPane.rightAnchor="295.0" />
+      <TextField fx:id="textTitle" layoutX="123.0" layoutY="98.0" prefHeight="27.0" prefWidth="454.0" AnchorPane.leftAnchor="123.0" AnchorPane.rightAnchor="8.0" />
+      <TextField fx:id="textCredit" layoutX="123.0" layoutY="141.0" prefHeight="27.0" prefWidth="167.0" AnchorPane.leftAnchor="123.0" AnchorPane.rightAnchor="295.0" />
+      <Label layoutX="7.0" prefHeight="41.0" prefWidth="329.0" text="Enter new Course ID, title, credit and category" />
+      <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="58.0" prefHeight="17.0" prefWidth="108.0" text="ID" textAlignment="RIGHT" />
+      <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="103.0" prefHeight="17.0" prefWidth="108.0" text="Title" textAlignment="RIGHT" />
+      <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="146.0" prefHeight="17.0" prefWidth="108.0" text="Credit" textAlignment="RIGHT" />
+      <Label alignment="CENTER_RIGHT" layoutX="7.0" layoutY="191.0" prefHeight="17.0" prefWidth="108.0" text="Category" textAlignment="RIGHT" />
+      <Button fx:id="buttonAdd" layoutX="318.0" layoutY="186.0" mnemonicParsing="false" onAction="#handleButtonAdd" prefHeight="27.0" prefWidth="90.0" text="Add" AnchorPane.leftAnchor="318.0" AnchorPane.rightAnchor="177.0" />
+      <Button fx:id="buttonCancel" layoutX="434.0" layoutY="186.0" mnemonicParsing="false" onAction="#handleButtonCancel" prefHeight="27.0" prefWidth="82.0" text="Cancel" AnchorPane.leftAnchor="434.0" AnchorPane.rightAnchor="69.0" />
+      <ChoiceBox fx:id="choiceBoxCategory" layoutX="123.0" layoutY="186.0" prefHeight="27.0" prefWidth="167.0" AnchorPane.leftAnchor="123.0" AnchorPane.rightAnchor="295.0" />
+   </children>
+</AnchorPane>

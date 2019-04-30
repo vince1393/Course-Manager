@@ -1,0 +1,91 @@
+/* 
+    Created on : 25-Apr-2018, 4:58:34 PM
+    Author     : vince
+*/
+
+.root{
+    -fx-background-color: black;
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, black;
+}
+.list-view .list-cell{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, grey;
+    -fx-text-fill: black;
+}
+.list-view .list-cell:selected{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, black;
+    -fx-text-fill: white;
+}
+.menu-bar{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, grey;
+    -fx-text-fill: black;
+}
+
+.context-menu{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, grey;
+    -fx-text-fill: black;
+}
+
+.button{
+    -fx-background-color: grey;
+    -fx-text-fill: black;
+}
+
+.choice-box{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, grey;
+    -fx-text-fill: black;
+}
+.choice-box .context-menu{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, grey;
+    -fx-text-fill: black;
+}
+.radio-button{
+    -fx-text-fill: white;
+}
+
+
+.table-view{
+    -fx-background-color: transparent;
+}
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .filler{
+    -fx-background-color: grey;
+}
+.table-view .column-header-background{
+     -fx-background-color: grey;
+}
+.table-view .column-header-background .label{
+     -fx-background-color: grey;
+     -fx-text-fill: black;
+}
+.table-row-cell{
+    -fx-background-color: black;
+}
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+.table-row-cell:odd{
+    -fx-background-color: grey;
+}
+.table-row-cell:selected{
+    -fx-background-color: blue;
+}
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background{
+    -fx-background-color: black;
+}
